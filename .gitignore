@@ -1,0 +1,7 @@
+build*/
+cmake-build-*/
+results/
+.cache/
+compile_commands.json
+*.o
+*.a
