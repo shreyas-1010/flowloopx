@@ -1,0 +1,9 @@
+mode,backpressure,scenario,rss_peak_kb,label,active,idle,stalled,pipeline,payload,work,ok_rps,busy_rps,p50_us,p99_us,p999_us,connected,connect_failed,closed_active,closed_idle,closed_stalled
+et,on,steady,5320,et_bpon_steady,512,0,0,8,64,0,1303791,0,3072,3712,4608,512,0,0,0,0
+et,on,overload,18824,et_bpon_overload,512,0,32,32,32,20000,131621,0,118784,147456,147456,544,0,0,0,0
+et,off,steady,5312,et_bpoff_steady,512,0,0,8,64,0,1173913,0,3200,7936,9216,512,0,0,0,0
+et,off,overload,4912,et_bpoff_overload,512,0,32,32,32,20000,111596,4402738,40960,45056,47104,544,0,0,0,32
+lt,on,steady,5316,lt_bpon_steady,512,0,0,8,64,0,1315740,0,3072,4864,5888,512,0,0,0,0
+lt,on,overload,18932,lt_bpon_overload,512,0,32,32,32,20000,131890,0,118784,131072,139264,544,0,0,0,0
+lt,off,steady,5296,lt_bpoff_steady,512,0,0,8,64,0,1291083,0,3072,3328,6144,512,0,0,0,0
+lt,off,overload,4668,lt_bpoff_overload,512,0,32,32,32,20000,114469,3866778,38912,47104,49152,544,0,0,0,32
